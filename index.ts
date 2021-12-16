@@ -14,6 +14,8 @@ type NotExportedType = {
   x: string;
 };
 
+export let something: NotExportedType = { x: "" };
+
 export let constant: ConstantInterface = {
   property: 12,
 };
